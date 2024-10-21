@@ -40,7 +40,7 @@ function makeSortedArray(myArray) {
 
         }
 
+
+        return myArray
     }
-    return myArray
-}
-console.log(makeSortedArray([3, 1, 10, 7, 15, 15, 4]));
+    console.log(makeSortedArray([3, 1, 10, 7, 15, 15, 4]));
