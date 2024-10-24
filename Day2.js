@@ -2,7 +2,7 @@
 
 function generateSortArray(input) {
     let temp;
-    // while working with anythings that need compare with item in array with eachother use 2 loops
+    // while working with anythings that need compare with item in array with eachother use2 loops
     for (let i = 0; i < input.length; i++) {
         for (let j = 0; j < input.length; j++) {
             if (input[j] > input[j + 1]) {
@@ -40,7 +40,7 @@ function makeSortedArray(myArray) {
 
         }
 
-
-        return myArray
     }
-    console.log(makeSortedArray([3, 1, 10, 7, 15, 15, 4]));
+    return myArray
+}
+console.log(makeSortedArray([3, 1, 10, 7, 15, 15, 4]));
